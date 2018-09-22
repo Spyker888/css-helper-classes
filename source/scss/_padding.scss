@@ -1,0 +1,37 @@
+@include prefix_all('padding');
+@include prefix('padding','top');
+@include prefix('padding','right');
+@include prefix('padding','bottom');
+@include prefix('padding','left');
+
+@media (min-width:576px){
+  @include responsive_prefix_all('padding','sm');
+  @include responsive_prefix('padding','top','sm');
+  @include responsive_prefix('padding','right','sm');
+  @include responsive_prefix('padding','bottom','sm');
+  @include responsive_prefix('padding','left','sm');
+}
+
+@media (min-width:768px){
+  @include responsive_prefix_all('padding','md');
+  @include responsive_prefix('padding','top','md');
+  @include responsive_prefix('padding','right','md');
+  @include responsive_prefix('padding','bottom','md');
+  @include responsive_prefix('padding','left','md');
+}
+
+@media (min-width:992px){
+  @include responsive_prefix_all('padding','lg');
+  @include responsive_prefix('padding','top','lg');
+  @include responsive_prefix('padding','right','lg');
+  @include responsive_prefix('padding','bottom','lg');
+  @include responsive_prefix('padding','left','lg');
+}
+
+@media (min-width:1200px){
+  @include responsive_prefix_all('padding','xl');
+  @include responsive_prefix('padding','top','xl');
+  @include responsive_prefix('padding','right','xl');
+  @include responsive_prefix('padding','bottom','xl');
+  @include responsive_prefix('padding','left','xl');
+}

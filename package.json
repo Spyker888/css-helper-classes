@@ -1,0 +1,32 @@
+{
+  "name": "css-helper-classes",
+  "version": "1.0.0",
+  "description": "Css classes for easier and quicker layout building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spyker888/css-helper-classes.git"
+  },
+  "author": "Sergii Bolinchuk <bolinchuk.sergey@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spyker888/css-helper-classes/issues"
+  },
+  "homepage": "https://github.com/Spyker888/css-helper-classes#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.0.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

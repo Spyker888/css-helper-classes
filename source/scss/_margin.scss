@@ -1,0 +1,37 @@
+@include prefix_all('margin');
+@include prefix('margin','top');
+@include prefix('margin','right');
+@include prefix('margin','bottom');
+@include prefix('margin','left');
+
+@media (min-width:576px){
+  @include responsive_prefix_all('margin','sm');
+  @include responsive_prefix('margin','top','sm');
+  @include responsive_prefix('margin','right','sm');
+  @include responsive_prefix('margin','bottom','sm');
+  @include responsive_prefix('margin','left','sm');
+}
+
+@media (min-width:768px){
+  @include responsive_prefix_all('margin','md');
+  @include responsive_prefix('margin','top','md');
+  @include responsive_prefix('margin','right','md');
+  @include responsive_prefix('margin','bottom','md');
+  @include responsive_prefix('margin','left','md');
+}
+
+@media (min-width:992px){
+  @include responsive_prefix_all('margin','lg');
+  @include responsive_prefix('margin','top','lg');
+  @include responsive_prefix('margin','right','lg');
+  @include responsive_prefix('margin','bottom','lg');
+  @include responsive_prefix('margin','left','lg');
+}
+
+@media (min-width:1200px){
+  @include responsive_prefix_all('margin','xl');
+  @include responsive_prefix('margin','top','xl');
+  @include responsive_prefix('margin','right','xl');
+  @include responsive_prefix('margin','bottom','xl');
+  @include responsive_prefix('margin','left','xl');
+}

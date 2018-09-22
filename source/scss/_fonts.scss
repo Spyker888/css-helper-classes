@@ -1,0 +1,19 @@
+@include fonts('fs','lh');
+
+@media (min-width:576px){
+  @include fonts('fs','lh','sm');
+}
+
+@media (min-width:768px){
+  @include fonts('fs','lh','md');
+}
+
+@media (min-width:992px){
+  @include fonts('fs','lh','lg');
+}
+
+@media (min-width:1200px){
+  @include fonts('fs','lh','xl');
+}
+
+@include weights();
